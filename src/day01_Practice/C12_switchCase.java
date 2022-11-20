@@ -1,5 +1,7 @@
 package day01_Practice;
 
+import java.util.Scanner;
+
 public class C12_switchCase {
     public static void main(String[] args) {
 
@@ -8,8 +10,9 @@ public class C12_switchCase {
         // perşembe-cuma: Selenium Dersi
         // carşamba- cumartesi : SQl Dersi
         // diger gunler : izin gunu
-
-        String gun = "Persembe";
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Gun isminin ilk harfini buyuk sekilde giriniz: ");
+        String gun = scan.nextLine();
 
         switch (gun){
             case "Pazartesi":

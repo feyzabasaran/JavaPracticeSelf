@@ -2,7 +2,7 @@ package day01_Practice;
 
 import java.util.Scanner;
 
-public class C13_switchCase {
+public class C14_switchCase {
     public static void main(String[] args) {
         // Kullanicidan alinan harfe gore
 
@@ -11,7 +11,7 @@ public class C13_switchCase {
         // C >> "Javayi cok seviyorum"
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("Lutfen bir harf girin");
+        System.out.println("Lutfen bir buyuk harf girin");
 
         char harf= scan.next().charAt(0);
 

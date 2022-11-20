@@ -1,6 +1,6 @@
 package day01_Practice;
 
-public class C11_NestedIf {
+public class C10_NestedIf {
     public static void main(String[] args) {
 
         // oy kullanma skalasi

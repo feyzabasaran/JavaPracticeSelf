@@ -1,6 +1,6 @@
 package day01_Practice;
 
-public class C08_IfQuestions {
+public class C08_NotHesaplama {
     public static void main(String[] args) {
 
         /*

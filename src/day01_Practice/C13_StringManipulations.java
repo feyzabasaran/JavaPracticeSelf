@@ -2,7 +2,7 @@ package day01_Practice;
 
 import java.util.Scanner;
 
-public class C14_StringManipulations {
+public class C13_StringManipulations {
     public static void main(String[] args) {
 
         // Kullanicidan isim ve soyisim alin, butun ismini buyuk harfle yazdirin.

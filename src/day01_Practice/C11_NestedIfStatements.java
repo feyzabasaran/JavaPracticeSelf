@@ -1,6 +1,6 @@
 package day01_Practice;
 
-public class C10_NestedIfStatements {
+public class C11_NestedIfStatements {
     public static void main(String[] args) {
 
         // hayvan mekani 15 yaş ustu aliyor
