@@ -1,5 +1,7 @@
 package day04_Practice;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Scanner;
 
 public class C05_IfStatements {
@@ -15,18 +17,26 @@ public class C05_IfStatements {
     Gün ay yıl: 10.02.2009
     Ay gün yıl: 02.10.2009
     Yıl ay gün: 2009.02.10
-
      */
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        System.out.print("Lutfen gunu giriniz: ");
-        int gun = scan.nextInt();
-        System.out.print("Lütfen ayı giriniz: ");
-        int ay = scan.nextInt();
-        System.out.print("Lütfen yili giriniz: ");
-        int yil = scan.nextInt();
 
-        System.out.println("Gün ay yıl: " +gun + "." + ay + "." + yil);
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("gun : ");
+        String gun = scanner.next();
+        System.out.print("ay : ");
+        String ay = scanner.next();
+        System.out.print("yil : ");
+        String yil = scanner.next();
+
+        System.out.println("Gün ay yıl: " + gun + "." + ay + "." + yil);
+        System.out.println("Ay gun yıl: " + ay + "." + gun + "." + yil);
+        System.out.println("Yil ay gun: " + yil + "." + ay + "." + gun);
+
+
+
+
+
+
 
     }
 
